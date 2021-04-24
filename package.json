@@ -1,34 +1,50 @@
 {
-    "name": "vscode-squirrel-lang",
-    "displayName": "Squirrel Language Highlighting",
-    "description": "Squirrel Language Highlighting",
-    "version": "0.0.13",
-    "publisher": "monkeygroover",
-    "icon": "simple_nut.png",
-    "engines": {
-        "vscode": "^1.16.0"
-    },
-    "categories": [
-        "Programming Languages"
-    ],
-    "keywords" : [
-        "electric imp", "electricimp", "imp"
-    ],
-    "contributes": {
-        "languages": [{
-            "id": "squirrel",
-            "aliases": ["Squirrel", "squirrel"],
-            "extensions": ["nut"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "squirrel",
-            "scopeName": "source.nut",
-            "path": "./syntaxes/Squirrel.tmLanguage.json"
-        }]
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/monkeygroover/vscode-squirrel-lang.git"
-    }
+	"name": "vscode-brux-lang",
+	"displayName": "Brux GDK Highlighting",
+	"description": "Syntax highlighting for Brux GDK Squirrel code.",
+	"version": "0.0.2",
+	"publisher": "Kelvin Shadewing",
+	"icon": "iconut.png",
+	"engines": {
+		"vscode": "^1.16.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"keywords": [
+		"brux gdk",
+		"brux",
+		"squirrel"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "brux",
+				"aliases": [
+					"Brux",
+					"brux"
+				],
+				"extensions": [
+					"brx"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "brux",
+				"scopeName": "source.brx",
+				"path": "./syntaxes/Brux.tmLanguage.json"
+			}
+		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/kelvinshadewing/vscode-brux-lang.git"
+	},
+	"__metadata": {
+		"id": "0",
+		"publisherId": "0",
+		"publisherDisplayName": "Kelvin Shadewing"
+	}
 }

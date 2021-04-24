@@ -1,11 +1,11 @@
 ## Features
 
-Syntax highlighing support for squirrel language http://www.squirrel-lang.org/
-
-Includes highlighting of the set of global objects and constants for the [Electric Imp API](https://developer.electricimp.com/api)
+Syntax highlighing support for squirrel language with additional bits for use in Brux GDK games.
 
 ## Credits
 
-.tmLanguage grammar file based on https://github.com/robmerrell/squirrel-tmbundle
+Forked from https://github.com/monkeygroover/vscode-squirrel-lang
 
-icon from squirrel-lang.org
+Original Squirrel.tmLanguage grammar file based on https://github.com/robmerrell/squirrel-tmbundle
+
+Icon from [Kyrodian Legends](https://github.com/KelvinShadewing/KyrodianLegends). License [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
